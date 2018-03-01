@@ -50,6 +50,8 @@ group :development do
 
   gem 'puma'
 
+  gem 'rack-timeout'
+
   ruby "2.4.1"
 
 end
