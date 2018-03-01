@@ -56,7 +56,10 @@ group :development do
 
   gem 'haml'
 
+  gem 'devise'
+
   ruby "2.4.1"
+
 
 end
 
