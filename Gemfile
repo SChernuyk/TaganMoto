@@ -48,6 +48,8 @@ group :development do
 
   gem 'rails_12factor', group: :production
 
+  gem 'puma'
+
   ruby "2.4.1"
 
 end
