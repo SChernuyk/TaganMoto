@@ -52,6 +52,10 @@ group :development do
 
   gem 'rack-timeout'
 
+  gem 'bootstrap-sass'
+
+  gem 'haml'
+
   ruby "2.4.1"
 
 end
