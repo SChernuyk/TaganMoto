@@ -2,7 +2,7 @@ source 'https://rubygems.org'
 
 ruby "2.4.1"
 
-gem 'devise'
+
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.10'
 # Use sqlite3 as the database for Active Record
@@ -46,9 +46,9 @@ group :development do
   # Spring speeds up development by keeping your application running in the background. Read more: https://github.com/rails/spring
   gem 'spring'
 
-  gem 'pg','~> 0.15'  , group: :development
+  gem 'pg','~> 0.15'  , group: :production
 
-  gem 'rails_12factor', group: :development
+  gem 'rails_12factor', group: :production
 
   gem 'puma'
 
@@ -58,6 +58,7 @@ group :development do
 
   gem 'haml'
 
+  gem 'devise'
 
 
 end
