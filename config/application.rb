@@ -4,8 +4,9 @@ require 'rails/all'
 
 # Require the gems listed in Gemfile, including any gems
 # you've limited to :test, :development, or :production.
+require 'devise'
 Bundler.require(*Rails.groups)
-require 'yaml'
+
 
 
 module TaganMoto
