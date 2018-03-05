@@ -12,4 +12,5 @@ class RegistrationsController < ApplicationController
   def create
     # do something
   end
+
 end

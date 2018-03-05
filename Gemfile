@@ -7,6 +7,8 @@ gem 'rails', '4.2.10'
 # Use sqlite3 as the database for Active Record
 # gem 'sqlite3'
 # Use SCSS for stylesheets
+gem 'bootstrap-sass'
+
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
 gem 'uglifier', '>= 1.3.0'
@@ -54,8 +56,6 @@ end
   gem 'puma'
 
   gem 'rack-timeout'
-
-  gem 'bootstrap-sass'
 
   gem 'haml'
 
